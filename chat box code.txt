@@ -1,0 +1,19 @@
+import time
+now = time.ctime()
+
+qna ={
+     "hi":"hey",
+     "how are you":"i am fine",
+     "what is your name":"my name is gaurang",
+     "how old are you":"i am 20 year old",
+     "what is the time now":now,
+ }
+ 
+while True:
+     qs =input()
+
+     if(qs =="quit"):
+        break
+   
+     else: 
+        print(qna[qs])
